@@ -2,6 +2,11 @@
 
 namespace TripSorter\BoardingCard;
 
+/**
+ * Base class that defines minimum BoardingCard interface and common
+ * functionality. Any new boarding card implementation must extend
+ * this class and implement all abstract methods.
+ */
 abstract class BoardingCard {
 
     /** @var string */

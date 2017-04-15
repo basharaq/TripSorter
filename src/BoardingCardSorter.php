@@ -10,6 +10,11 @@ class BoardingCardSorter {
      * @param BoardingCard[] $boardingCards
      *
      * @return BoardingCard[]
+     *
+     * This algorithm iterates through the list of boarding cards 3*n times
+     * where n is the length of the list, giving it a complexity of O(n).
+     * The assumption here is that an associative array lookup in PHP takes
+     * O(1).
      */
     public function getSortedList(array $boardingCards): array {
         if (count($boardingCards) === 0) {

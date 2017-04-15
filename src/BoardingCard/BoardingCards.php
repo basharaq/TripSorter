@@ -2,6 +2,9 @@
 
 namespace TripSorter\BoardingCard;
 
+/**
+ * Repository for retrieving a collection of BoardingCard objects from a JSON string
+ */
 class BoardingCards {
 
     /** @var string */
